@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASYBUY ONLINE SHOP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dec.css">
+    <link rel="shortcut icon" href="icon1.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div class="header">
+    <div class="container" >
+        <div class="navbar">
+            <div class="logo">
+                <a class="name" id= "log" href="#"><img class="icon" src="icon1.png"><b>EASYBUY</b></a>
+            </div>
+            <nav>
+               
+                <ul id="menuitems">
+                    <li><a class="name" href="#banner">Home</a></li>
+                    <li><a class="name" href="product.html">Products</a></li>
+                    <li><a class="name" href="account.html">Account</a></li>
+                    <li><a class="name" href="">Contact</a></li>
+                    <li><a  class="name" href="cart.html">Cart</a></li>
+                    <img src="products/close icon.png" class="close-icon">
+                </ul>
+            </nav>
+            <img src="products/menu.png" class="menu-icon" onclick="menutoggle()">
+            
+            
+        </div>
+    <div class="row" id="banner">
+        <div class="col-2">
+            <h1>Shop with ease in<br> your home!</h1>
+            <p>Shop products with one click. Top picks for your home<br>
+                on time delivery at your doorstep and <br>wide range of products best quality.
+            </p>
+            <a href="product.html" class="btn">View All Products &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="banner-removebg-preview.png">
+        </div>
+    </div>
+    </div>
+    </div>
+<!--features -->
+<div class="categories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="cat3.jpg" style="height: 450px;" title="women's kurti">
+            <div class="cat-data">
+                <span class="cat-title">Women's kurti</span>
+            </div>
+        </div>
+        <div class="col-3">
+            <img src="cat2.jpg"style="height: 450px;" title="cosmetics">
+            <div class="cat-data">
+                <span class="cat-title">Cosmetics</span>
+            </div>
+        </div>
+        <div class="col-3">
+            <img src="cat1.jpg" style="height: 450px;"title="linen shirts">
+            <div class="cat-data">
+                <span class="cat-title">Linen shirts</span>
+            </div>
+        </div>
+        <div class="col-3">
+            <img src="products/cat4.jpg" style="height: 450px;"title="men's casual shoes">
+            <div class="cat-data">
+                <span class="cat-title">Men's casual shoes</span>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!--featured products-->
+<div class="small-container" id="home">
+    <h2 class ="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="products/p1 main.jpg" style="height: 350px;">
+            <h4>Sneakers</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹499</p>
+        </div>
+        <div class="col-4">
+            <a href="prodetail.html" ><img src="products/p2-main.jpg" style="height: 350px;"></a>
+            <h4>Salwar Kameez</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>₹3499</p>
+        </div>
+        <div class="col-4">
+            <img src="products/p3-main.jpg" style="height: 350px;">
+            <h4>Leather bags</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹1849</p>
+        </div>
+        <div class="col-4">
+            <img src="products/p4-main.jpg" style="height: 350px;">
+            <h4>Perfumes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹899</p>
+        </div>
+    </div>
+</div>
+
+    <!--latest products-->
+    <div class="small-container">
+    <h2 class ="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-3h">
+            <img src="products/lp-1.jpg" style="height: 350px;">
+            <h4>Lipstick nutmeg nude</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹799</p>
+        </div>
+        <div class="col-3h">
+            <img src="products/lp-2.jpg" style="height: 350px;">
+            <h4>Watches </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>₹9870</p>
+        </div>
+        <div class="col-3h">
+            <img src="products/lp-3.jpg" style="height: 350px;">
+            <h4>Couple ring set</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹1999</p>
+        </div>
+        <div class="col-3h">
+            <img src="products/lp-4(cott resham work palazzo suit.jpg" style="height: 350px;">
+            <h4>Palazzo suit</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>₹3899</p>
+        </div>
+        <div class="col-3h">
+            <img src="products/lp-5 apple airpods.jpg" style="height: 350px;">
+            <h4>apple airpods</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>₹13,990</p>
+        </div>
+        <div class="col-3h">
+            <img src="products/lp-6 girl blue shibori top set.jpg" style="height: 350px;">
+            <h4>Blue shibori top set</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹1850</p>
+        </div>
+    </div>
+</div>
+<!--offer----->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="products/offer-removebg-preview.png"class="offer-img">
+            </div>
+            <div class="col-2">
+                <p><i>Exclusively available on EASYBUY</i></p>
+                <h1>Smart Band 4</h1>
+                <small>
+                    The Mi Smart Band 4 features a 39.9% larger(than Mi Band 3) Amoled color
+                    full-touch display with adjustable brightness.
+                </small>
+                <br>
+                <a href="cart.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<!--testimonials-->
+<div class="testimonial">
+    <div class="small-container">
+        <h2 class ="title">Testimonials</h2>
+        <div class="row">
+            <div class="col-3h">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptate delectus itaque hic magni quam magnam voluptatem quisquam, ad, non atque impedit 
+                exercitationem odit voluptates nostrum rem iure alias! Velit, vel.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="products/test1.png">
+                <h4>Pooja Shree</h4>
+                <h3>Chennai</h3>
+            </div>
+            <div class="col-3h">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptate delectus itaque hic magni quam magnam voluptatem quisquam, ad, non atque impedit 
+                exercitationem odit voluptates nostrum rem iure alias! Velit, vel.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-0"></i>
+                </div>
+                <img src="products/test2.png">
+                <h4>Dilip Kumar</h4>
+                <h3>Mumbai</h3>
+            </div>
+            <div class="col-3h">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptate delectus itaque hic magni quam magnam voluptatem quisquam, ad, non atque impedit 
+                exercitationem odit voluptates nostrum rem iure alias! Velit, vel.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <img src="products/test1.png">
+                <h4>Nellima</h4>
+                <h3>Andhra Pradesh</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer--->
+<div class="footer">
+    <div class="footer-container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>
+                    Download app for android and ios mobile phone
+                </p>
+               <div class="app-logo">
+                    <img src="products/Available_on_the_App_Store_logo.png">
+                    <img src="products/Play-Store-Logo-2.png">
+                </div>
+
+            </div>
+            <div class="footer-col-2">
+                <!--<h2>EASYBUY</h2>-->
+                <img src="icon1.png"style="width:25px;height:20px;transform:rotate(25deg);"><h2>EASYBUY</h2>
+                <p>
+                    our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
+                </p>
+                
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join affiliate</li>
+                </ul>
+                
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+                
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021- Shivaani Balaji</p>
+    </div>
+</div>
+   <script src="click.js"></script>
+</body>
+</html>

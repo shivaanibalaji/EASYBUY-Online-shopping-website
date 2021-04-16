@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products-EASYBUY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dec.css">
+    <link rel="shortcut icon" href="icon1.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <script src="cartadd.js" async></script>
+
+
+</head>
+<body>
+    
+    <div class="container" >
+        <div class="navbar">
+            <div class="logo">
+                <a class="name" id= "log" href="page.html"><img class="icon" src="icon1.png"><b>EASYBUY</b></a>
+            </div>
+            <nav>
+               
+                <ul id="menuitems">
+                    <li><a class="name" href="page.html">Home</a></li>
+                    <li><a class="name" href="product.html">Products</a></li>
+                    <li><a class="name" href="account.html">Account</a></li>
+                    <li><a class="name" href="">Contact</a></li>
+                    <li><a  class="name inspan" href="cart.html">Cart</a><span id="no">0</span></li>
+                    <img src="products/close icon.png" class="close-icon">
+                </ul>
+            </nav>
+            <img src="products/menu.png" class="menu-icon" onclick="menutoggle()">
+            
+            
+        </div>
+   
+    </div>
+
+
+<!--featured products-->
+<div class="small-container" >
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select >
+            <option >Default Sorting</option>
+            <option >Sort by price</option>
+            <option >Sort by popularity</option>
+            <option >Sort by Rating</option>
+            <option >Sort by Sale</option>
+        </select>
+    </div>
+    <div class="row">
+       
+        <div class="col-4">
+            <a href="prodetail.html"><img src="products/p2-main.jpg" style="height: 350px;"></a>
+            <h4>Salwar Kameez</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>₹3499</p>
+            <input type="button" value="Add to Cart" class="btn btn-shop">
+        </div>
+        <div class="col-4">
+            <img src="products/p1 main.jpg" style="height: 350px;">
+            <h4>Sneakers</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹499</p>
+            <input type="button" value="Add to Cart" class="btn btn-shop">
+        </div>
+        <div class="col-4">
+            <img src="products/p3-main.jpg" style="height: 350px;">
+            <h4>Leather bags</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹1849</p>
+      
+            <input type="button" value="Add to Cart" class="btn btn-shop">
+        </div>
+        <div class="col-4">
+            <img src="products/p4-main.jpg" style="height: 350px;">
+            <h4>Perfumes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>₹899</p>
+            <input type="button" value="Add to Cart" class="btn btn-shop">
+        </div>
+
+
+    <!--latest products-->
+   
+       
+    </div>
+    <div class="page-btn">
+        <span class="active next">1</span>
+       <a href="product2.html"> <span class="next">2</span></a>
+        <a href="product3.html"><span class="next">3</span></a>
+        <a href="product4.html"><span>4</span></a>
+        <span id="move" onclick="myFunction()">&#8594;</span>
+    </div>
+    
+</div>
+
+
+<!--footer--->
+<div class="footer">
+    <div class="footer-container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>
+                    Download app for android and ios mobile phone
+                </p>
+               <div class="app-logo">
+                    <img src="products/Available_on_the_App_Store_logo.png">
+                    <img src="products/Play-Store-Logo-2.png">
+                </div>
+
+            </div>
+            <div class="footer-col-2">
+                
+                <img src="icon1.png"style="width:25px;height:20px;transform:rotate(25deg);"><h2>EASYBUY</h2>
+                <p>
+                    our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
+                </p>
+                
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join affiliate</li>
+                </ul>
+                
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+                
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021- Shivaani Balaji</p>
+    </div>
+</div>
+   <script src="click.js"></script>
+</body>
+</html>
